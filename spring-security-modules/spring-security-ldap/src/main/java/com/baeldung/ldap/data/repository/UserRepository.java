@@ -1,10 +1,9 @@
 package ldap.data.repository;
 
-import java.util.List;
-
-import ldap.data.repository.User;
 import org.springframework.data.ldap.repository.LdapRepository;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 public interface UserRepository extends LdapRepository<User> {
