@@ -1,4 +1,4 @@
-package com.baeldung.ldap.data.repository;
+package ldap.data.repository;
 
 import javax.naming.Name;
 

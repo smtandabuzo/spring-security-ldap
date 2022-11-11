@@ -1,7 +1,8 @@
-package com.baeldung.ldap.data.repository;
+package ldap.data.repository;
 
 import java.util.List;
 
+import ldap.data.repository.User;
 import org.springframework.data.ldap.repository.LdapRepository;
 import org.springframework.stereotype.Repository;
 
